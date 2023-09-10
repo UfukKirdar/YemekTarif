@@ -1,0 +1,74 @@
+/************ selectors ***********/
+/* li:first-child{     
+    color: green;
+     
+    /*  :first-child --> listenin ilk elemanı üzerinde işlem yapıyoruz */
+/*}
+li:last-child{
+    color: blue;
+
+    /*  :last-child --> listenin son elemanı üzerinde işlem yapıyoruz */
+/*} 
+
+*/
+
+/**********  box-kutu özellikleri ***********/
+
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    width: 1000px;
+    /* margin-right: auto;     /* margin-right ve margin-left ile iki taraftan iterek kutuları ortaya hizala */
+    /* margin-left: auto; */ 
+    margin: 30px auto 0 ;
+}
+
+.left-bar{
+    width: 200px;
+    float: left;
+}
+
+.content{
+    width: 800px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10px; */        /* kutunun dört tarafından boşluk verir*/
+    /* margin-right: 10px; */  /* kutunun sağında boşluk bırakır */
+    margin-left: 10px;    /* kutunun solunda boşluk bırakır */
+    /* margin-top: 10px; */    /* kutunun üst tarafında boşluk bırakır */
+    /* margin-bottom: 10px; */ /* kutunun alt tarafında boşluk bırakır */
+    float: left;   /* kutuları yan yana getir*/
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+.card{
+    width: 20%;   /* yüzde 23'lük bir alan kaplasın*/
+    float: left;
+    padding: 5%;
+    background-color: rgb(128, 129, 130);
+    margin-right: 3%;  
+    border-radius: 10px;   /* kutulara yuvarlak bir yapı verip daha güzel görünmesini sağlarız */
+} 
